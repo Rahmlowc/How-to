@@ -1,5 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+      <style>
+      div {
+        font-family:"Roboto+Condensed", serif;
+        font-size:16px;
+      }
+      body {
+        font-family:"Montserrat", serif;
+        font-size:15px;
+      }
+      h1,h2,h3 {
+        font-family:"Charmonman";
+      }
+      </style>
+  </head>
   <style>
 table {
     font-family: arial, sans-serif;
@@ -9,20 +27,41 @@ table {
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+    text-align: left; 
 }
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+.outer-box {
+      background-color:grey;
+      margin:10px;
+      padding:10px;
+      min-height:300px;
+    }
+    .name {
+      color:white;
+      font-family:Tahoma;
+      margin-left:20px;
+    }
+    .picture {
+      margin-left:20px;
+      float:left;
+      margin-right:20px;
+      margin-bottom:10px;
+      border:2px solid black;
+    }
+    .bio {
+      font-family:Tahoma;
+      padding-left:20px;
+      padding-right:20px;
+      padding-bottom:20px;
+    }
+    img {
+      display:block;
+    }
 </style>
 <title>The Perfect Sugar Cookie</title>
 </head>
   <body>
-    <div style="background-color:black;color:white;padding:20px">
-    <img src="https://rahmlowc.github.io/How-to/images/2021rahmlow.jpg" alt="Cassandra Rahmlow" height=100
-width=65>    <!--Used the h1 for the title of my how to-->
+    <div style="padding:20px">
+       <!--Used the h1 for the title of my how to-->
     <h1>The <i><a style="color:red">Perfect</a></i> Sugar Cookie</h1>
     <h2>The Cookies I Love to Make the Most</h2>
     <table>
@@ -84,5 +123,12 @@ width=65>    <!--Used the h1 for the title of my how to-->
     before you eat a cookie, you can be miserable after you eat a cookie, but<br>
     you can <b>never</b> be miserable <i>while</i> eating a cookie.</q></p>
   </div>
+  <div style="padding:20px">
+      <div class="outer-box">
+      <div class="name"><h1>About The Author</h1></div>
+      <div class="picture"><img src="https://rahmlowc.github.io/How-to/images/2021rahmlow%20(1).jpg"></div>
+      <div class="bio"><h2>Cassandra Rahmlow</h2>
+   Cassandra Rahmlow has been going to Manitowoc Lutheran High School sense May of 2017. She spent her grade school years at Bethany in Manitowoc. Her life is all about helping the comunity and helpin others. She playes volleyball during the fall. She think that after all the time she has put into her school work that she might finally be a straight A student, but not yet she'll get there sooner rather than later.      </div>
+    </div>
   </body>
 </html>
